@@ -612,6 +612,16 @@ video {
 
 }
 
+@media(max-width:768px){
+    .letter{
+        background-color: transparent;
+    }
+    .letter h3{
+        text-align: center;
+    }
+
+}
+
 .video button {
     position: absolute;
     background-color: black;
@@ -624,6 +634,11 @@ video {
     bottom: 44px;
     cursor: pointer;
 
+}
+@media(max-width:768px){
+    .video button{
+        background-color: #19c8faa3;
+    }
 }
 
 /* end video */
