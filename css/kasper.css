@@ -1335,6 +1335,7 @@ flex-basis: 70%;
     margin-top: 40px;
     display: flex;
     margin-left: auto;
+     cursor: pointer;
 }
 .footer{
     background-image: url("../images/subscribe.jpg");
