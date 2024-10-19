@@ -1267,13 +1267,30 @@ flex-basis: 70%;
     max-width: 100%;
     height: 60px;
     margin-bottom: 20px;
-    padding: 10px 20px; 
+    padding: 10px 20px;
+    transition: var(--main-duration);
+    -webkit-transition: var(--main-duration);
+    -moz-transition: var(--main-duration);
+    -ms-transition: var(--main-duration);
+    -o-transition: var(--main-duration);
+  outline: none;
 }
 
 .textarea {
     max-width: 100%;
     height: 200px;
-    padding: 10px 20px; 
+    padding: 10px 20px;
+    transition: var(--main-duration);
+    -webkit-transition: var(--main-duration);
+    -moz-transition: var(--main-duration);
+    -ms-transition: var(--main-duration);
+    -o-transition: var(--main-duration);
+    outline: none;
+}
+.contact-items form input:focus,
+.contact-items  form textarea:focus{
+    border: 3px solid var(--main-color);
+    
 }
 .text-2{
     display: flex;
